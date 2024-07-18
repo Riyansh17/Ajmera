@@ -1,0 +1,192 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif; /* Ensure a clean font */
+}
+
+header {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+/*.slider {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    background-image: url('./Images/Image9.jpg');
+    background-size: cover;
+    background-position: center;
+}*/
+.top-bar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.contact-info span {
+    margin-right: 20px;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.social-icons a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+.wedding-info {
+    display: flex;
+    background-color: #0a2e36;
+    color: white;
+    padding: 40px 150px;
+
+}
+
+.experience {
+    flex: 1;
+    border: 1px solid white;
+    padding: 20px;
+    text-align: center;
+}
+
+.experience h2 {
+    font-size: 4em;
+    margin: 0;
+}
+
+.experience p {
+    margin: 5px 0;
+}
+
+.title {
+    flex: 2;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+.title h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+.description {
+    flex: 3;
+}
+
+.description p {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: white;
+    color: #0a2e36;
+}
+.service-showcase {
+    display: flex;
+    background-color: #0a2e36;
+    padding: 40px;
+    align-items: center;
+  }
+  
+  .image-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 0 #fff;
+  }
+  
+  .service-info {
+    flex: 1;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 10px 10px 0 rgba(255, 255, 255, 0.1);
+  }
+  
+  .service-info h2 {
+    color: #0a2e36;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .service-info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .service-info li {
+    color: #0a2e36;
+    margin-bottom: 10px;
+  }
+  
+  .service-info button {
+    background-color: transparent;
+    border: 2px solid #0a2e36;
+    color: #0a2e36;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .service-info button:hover {
+    background-color: #0a2e36;
+    color: white;
+  }
